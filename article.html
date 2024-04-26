@@ -1,0 +1,340 @@
+<!DOCTYPE html> 
+<html> 
+
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Traffic Rules: India vs Europe</title> 
+    <link rel="icon" type="image/x-icon" href="favicon.png"> 
+    <style> 
+        body { 
+            font-family: 'Arial', sans-serif; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f4f4f4; 
+        } 
+
+        header { 
+            background-color: #333; 
+            color: white; 
+            text-align: center; 
+            padding: 1em; 
+        } 
+
+        section { 
+            max-width: 800px; 
+            margin: 20px auto; 
+            padding: 20px; 
+            background-color: white; 
+            border-radius: 8px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        } 
+
+        h1 { 
+            color: #ffffff; 
+        } 
+
+        h2{ 
+            color: #363434; 
+        } 
+
+        strong{ 
+            color: #a32b2b; 
+        } 
+
+        p, li, ol { 
+            line-height: 1.6; 
+            color: #555; 
+        } 
+
+        img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 8px; 
+            margin: 20px 0; 
+        } 
+
+        .image-title { 
+            font-weight: bold; 
+            margin-bottom: 10px; 
+            color: #333; 
+        } 
+
+        ul { 
+            list-style-type: disc; 
+            padding-left: 20px; 
+            margin-bottom: 15px; 
+        } 
+
+        ol { 
+            list-style-type: decimal; 
+            padding-left: 20px; 
+            margin-bottom: 15px; 
+        } 
+
+        blockquote { 
+            border-left: 5px solid #333; 
+            padding-left: 15px; 
+            color: #666; 
+            margin: 15px 0; 
+        } 
+
+        table, th, td { 
+            border: 1px solid black; 
+            border-collapse: collapse; 
+        } 
+
+        th, td { 
+            padding: 15px; 
+        } 
+
+        /* Comments Section Styles */
+        #comments {
+            margin-top: 40px;
+        }
+
+        #comments h2 {
+            color: #363434;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        #comments-container {
+            margin-top: 20px;
+            border-top: 1px solid #ccc;
+            padding-top: 20px;
+        }
+
+        .comment {
+            margin-bottom: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+        }
+
+        .comment strong {
+            color: #a32b2b;
+        }
+
+        #comment-form {
+            margin-top: 20px;
+        }
+
+        #comment-form input[type='text'],
+        #comment-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        #comment-form textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        #comment-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #comment-form button:hover {
+            background-color: #555;
+        }
+
+        #header {
+            display: flex;
+            align-items: center; 
+        }
+        .logo {
+            margin-right: 10px;
+        }
+
+        footer {
+            margin-top: 30px;
+            background-color: #2a2a2a;
+            padding: 20px;
+        }
+
+        footer > span {
+            margin-top: 5px;
+            display: flex;
+            justify-content: flex-end;
+            font-size: 0.9em;
+            color: #ffffff;
+        }
+        </style>
+</head> 
+
+<body> 
+    <header id="header">
+        <div class="logo">
+            <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' title="Web development logo" fill='none'
+                stroke='#ffffff' stroke-width='8' width="50" height="50">
+                <circle cx="50" cy="50" r="40" />
+                <circle cx="50" cy="50" r="22" />
+                <circle cx="50" cy="50" r="4" />
+            </svg>
+        </div>
+        <h1>LearnTrafficRules.org</h1>
+    </header>
+    
+
+    <section> 
+        <img src="img/thumbnail1.jpg" alt="thumbnail"> 
+        <p> 
+            Welcome to our mini-blog exploring the differences in traffic 
+rules between India and Europe. 
+            Whether you're a local or a traveler, understanding the traffic 
+norms is crucial for a safe journey. 
+            After coming up with various ideas and topics that all fell 
+through I decided I wanted to write about a few observations 
+             I have made while driving in India and driving in the UK. How is 
+it that a country that borrowed all of its driving rules  
+             from the UK, from driving on the left side of the road to the 
+construction of roundabouts, drive so differently? 
+        </p> 
+
+        <h2>Key Differences</h2> 
+            <table> 
+                <tr> 
+                    <th>Aspect</th> 
+                    <th>India</th> 
+                    <th>Europe</th> 
+                </tr> 
+                <tr> 
+                    <td>Driving Side</td> 
+                    <td>Left</td> 
+                    <td>Right</td> 
+                </tr> 
+                <tr> 
+                    <td>Roundabouts</td> 
+                    <td>Less common</td> 
+                    <td>Common</td> 
+                </tr> 
+                <tr> 
+                    <td>Speed Limits</td> 
+                    <td>Varies</td> 
+                    <td>Varies</td> 
+                </tr> 
+                <tr> 
+                    <td>License Requirements</td> 
+                    <td>Specific to each state</td> 
+                    <td>Harmonized across regions</td> 
+                </tr> 
+            </table> 
+            <br> 
+        <blockquote> 
+            Remember, road safety is a shared responsibility. Always drive 
+responsibly and follow the rules to ensure everyone's safety. 
+        </blockquote><br> 
+
+        <div class="image-title">India Traffic Signs</div> 
+        <img src="img/india_traffic_signs.jpg" alt="India Traffic Signs"> 
+
+        <div class="image-title">Europe Traffic Signs</div> 
+        <img src="img/europe_traffic_signs.jpg" alt="Europe Traffic Signs"> 
+
+        <h2>Importance of Traffic Signs in Change of Driving Locations</h2> 
+
+        <p> 
+            Drivers often take traffic signs for granted and don’t think too 
+deeply about their importance. But without them, there would be terrible 
+consequences, like a higher risk of accidents and injury, and confusion on the 
+road. While the importance of traffic rules and signs might appear simple, 
+there are actually many reasons why rules and signs are important to all road 
+users, not just drivers. Let’s look at <strong>7 Reasons for the Importance of 
+Traffic Rules and Signs</strong>: 
+        </p> 
+
+        <ol> 
+            <li><strong>Reduce Accidents and Injuries.</strong> The key 
+importance of traffic rules and signs is for maintaining safety. </li> 
+            <li><strong>Provide Consistent Rules.</strong> Having consistent 
+and clearly communicated rules ensures that every road user is aware of them 
+and can adhere to them. </li> 
+            <li><strong>They Help Direct You to Where You Are Going.</strong> 
+If you’re not familiar with the route you are taking or going somewhere you 
+haven’t been before, signs help to direct you to your destination. </li> 
+            <li><strong>They Warn Drivers About Obstacles That Aren't 
+Obvious.</strong> While it would be nice to be aware of every single thing on 
+the road ahead, sometimes obstacles can be hidden from plain view or in blind 
+spots on the road. </li> 
+            <li><strong>They Manage Traffic Flow.</strong> Traffic flow is not 
+only important for safety but also for the efficient movement of traffic.</li> 
+            <li><strong>They’re Important for New Drivers.</strong> Driving 
+can feel second-nature to experienced drivers, but for new or inexperienced 
+drivers, they will need to work to recognise each and every traffic rule and 
+sign.</li> 
+            <li><strong>They Help Protect Cyclists and Pedestrians.</strong> 
+Vehicle drivers are not the only road users. There are a range of road users, 
+like cyclists and pedestrians, that also rely on traffic rules and signs. 
+</li> 
+        </ol> 
+
+        <div class="image-title">Europe Traffic Fines and Penalties</div> 
+        <img src="img/europe_traffic_fines.jpg" alt="Europe Traffic Signs"> 
+
+        <h2>References and Links</h2> 
+        <ul> 
+            <li><a href="https://www.enforcergroup.com.au/blog/7-reasons-why
+traffic-rules-and-signs-are-important/">Enforcer Group Australia</a></li> 
+            <li><a 
+href="https://carquirks.wordpress.com/2017/02/18/differences-in-driving
+between-the-uk-india/">Differences in driving between the UK & India</a></li> 
+            <li><a href="https://www.youtube.com/watch?v=cPTMDcgilAY">Driving 
+in Europe : An Indian's guide</a></li> 
+            <li><a 
+href="https://travel.stackexchange.com/questions/89308/driving-in-the-uk-for
+the-the-first-time-rules-to-dos-that-are-different-to">Driving in the UK for 
+the the first time - rules & to-dos that are different to India</a></li> 
+            <li><a href="https://en.wikipedia.org/wiki/Left-_and_right
+hand_traffic">Wikipedia: Left- and right-hand traffic</a></li> 
+        </ul> 
+    </section> 
+
+    <section id="comments">
+        <h2>Comments</h2>
+        <div id="comments-container">
+            <!-- Comments will be dynamically added here using JavaScript -->
+        </div>
+        <form id="comment-form">
+            <input type="text" id="comment-author" placeholder="Your Name" required>
+            <textarea id="comment-content" placeholder="Your Comment" required></textarea>
+            <button type="submit">Post Comment</button>
+        </form>
+    </section>
+
+    <script>
+        // JavaScript for handling comments
+        document.getElementById("comment-form").addEventListener("submit", function (event) {
+            event.preventDefault();
+            var author = document.getElementById("comment-author").value;
+            var content = document.getElementById("comment-content").value;
+
+            if (author && content) {
+                var commentContainer = document.getElementById("comments-container");
+                var comment = document.createElement("div");
+                comment.classList.add("comment");
+                comment.innerHTML = "<strong>" + author + ":</strong> " + content;
+                commentContainer.appendChild(comment);
+
+                // Clear input fields after posting comment
+                document.getElementById("comment-author").value = "";
+                document.getElementById("comment-content").value = "";
+            } else {
+                alert("Please fill in both fields before posting a comment.");
+            }
+        });
+    </script>
+    <footer>
+        <span>Copyright 2024, LearnTrafficRules.org</span>
+    </footer>
+</body> 
+</html> 

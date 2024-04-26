@@ -1,0 +1,138 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: #003366;
+  padding: 20px; /* Add spacing around the body */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensure full height */
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.message-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Review Form */
+.review-container {
+  width: 70%;
+}
+
+.form-wrapper {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.radio-container {
+  display: flex;
+  align-items: center;
+}
+
+.radio-container input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Material-UI Button Styles */
+.submit-button {
+  font-size: 25px;
+  font-weight: 500;
+  color: #003366;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  background-color: #cce5ff;
+}
+
+/* Horizontal Thick Buttons for Review Options */
+.review-option-buttons {
+  display: flex;
+  margin-bottom: 20px; /* Add spacing between options */
+}
+
+.review-option-buttons button {
+  font-size: 18px;
+  font-weight: 500;
+  padding: 12px 20px;
+  margin-right: 10px; /* Add spacing between buttons */
+  border: 2px solid #003366;
+  border-radius: 8px;
+  background-color: transparent;
+  color: #003366;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.review-option-buttons button:hover {
+  background-color: #cce5ff;
+}
+
+/* Dark Mode Theme */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #fff;
+  }
+
+  .message-box {
+    background-color: #424242; /* Darker background color */
+    color: #fff;
+  }
+
+  .submit-button {
+    background-color: #1976d2;
+    color: #fff;
+  }
+
+  .submit-button:hover {
+    background-color: #115293;
+  }
+
+  .review-option-buttons button {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .review-option-buttons button:hover {
+    background-color: #003366;
+  }
+}
